@@ -12,6 +12,9 @@
 Dokumentasi resmi:
 > - [Petunjuk penyiapan validator](https://docs.gitopia.com/installation/index.html)
 
+Explorer :
+> - [Explorer Checker](https://gitopia.explorers.guru/)
+
 ##  Persyaratan Perangkat Keras
 Seperti rantai Cosmos-SDK lainnya, persyaratan perangkat kerasnya cukup sederhana.
 
