@@ -81,6 +81,15 @@ source $HOME/.bash_profile
 - Connect Wallet
 - Get 10 Tlore Done
 
+### Snapshoot Jika Pengen Loncat ke Block Saat ini (Optional Form KJ Nodes)
+```
+curl -L https://snapshots.kjnodes.com/gitopia-testnet/snapshot_latest.tar.lz4 | lz4 -dc - | tar -xf - -C $HOME/.gitopia
+```
+### Lalu Muat Ulang Node
+```
+sudo systemctl start gitopiad && journalctl -u gitopiad -f --no-hostname -o cat
+```
+
 ### Membuat validator
 Before creating validator please make sure that you have at least 1 tlore (1 tlore is equal to 1000000 utlore) and your node is synchronized
 
