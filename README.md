@@ -75,9 +75,11 @@ source $HOME/.bash_profile
 ```
 
 ### Fund your wallet
-```
-N/A
-```
+
+- Import Validator Pharse Wallet Kalian ke Kepler
+- Open Web : https://gitopia.com/
+- Connect Wallet
+- Get 10 Tlore Done
 
 ### Membuat validator
 Before creating validator please make sure that you have at least 1 tlore (1 tlore is equal to 1000000 utlore) and your node is synchronized
