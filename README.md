@@ -81,7 +81,24 @@ source $HOME/.bash_profile
 - Connect Wallet
 - Get 10 Tlore Done
 
-### SNAPSHOOT (Waiting)
+### SNAPSHOOT (Form KjNodes) Buat Loncat Ke Block Saat Ini
+
+Stop Layanan dan Reset
+
+```
+sudo systemctl stop gitopiad
+cp $HOME/.gitopia/data/priv_validator_state.json $HOME/.gitopia/priv_validator_state.json.backup
+rm -rf $HOME/.gitopia/data
+```
+Download Snapshoot Terbaru (Size File 880 MB)
+```
+curl -L https://snapshots.kjnodes.com/gitopia-testnet/snapshot_latest.tar.lz4 | lz4 -dc - | tar -xf - -C $HOME/.gitopia
+mv $HOME/.gitopia/priv_validator_state.json.backup $HOME/.gitopia/data/priv_validator_state.json
+```
+Muat Ulang Layanan dan Periksa Block
+```
+sudo systemctl start gitopiad && journalctl -u gitopiad -f --no-hostname -o cat
+```
 
 ### Membuat validator
 Before creating validator please make sure that you have at least 1 tlore (1 tlore is equal to 1000000 utlore) and your node is synchronized
