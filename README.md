@@ -30,7 +30,7 @@ Seperti rantai Cosmos-SDK lainnya, persyaratan perangkat kerasnya cukup sederhan
  - Penyimpanan 1TB (SSD atau NVME)
  - Koneksi Internet permanen (lalu lintas akan minimal selama testnet; 10Mbps akan banyak - untuk produksi diharapkan setidaknya 100Mbps)
 
-##  Siapkan gitopia fullnode Anda
+##  Siapkan gitopia fullnode Anda 
 ###  Opsi 1 (otomatis)
 Anda dapat mengatur gitopia fullnode Anda dalam beberapa menit dengan menggunakan skrip otomatis di bawah ini. Ini akan meminta Anda untuk memasukkan nama simpul validator Anda!
 ```
