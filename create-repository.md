@@ -34,6 +34,13 @@ cd nama-repositori
 ```
 `repository` ganti dengan nama folder kalian bebas
 
+## Buat Config Akun
+```
+git config --global user.email "masukan-email-kalian"
+```
+```
+git config --global user.name "Nama-Akun-Gitopia"
+```
 ## Lalu Next Step Paste Paste Saja
 
 <p align="center">
