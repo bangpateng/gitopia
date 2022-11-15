@@ -11,15 +11,15 @@
   <img height="auto" height="auto" src="https://user-images.githubusercontent.com/38981255/201937434-8cb51337-b53b-435a-a168-fe6de4dcfdcd.JPG">
 </p>
 
-2 . Connect Via Recovery Exisiting Wallet
-3 . Masukan Pharse Wallet Kepler/Validator Kalian
-4 . Buat Password dan Done, Sudah Connect
+2. Connect Via Recovery Exisiting Wallet
+3. Masukan Pharse Wallet Kepler/Validator Kalian
+4. Buat Password dan Done, Sudah Connect
 
 <p align="center">
   <img height="auto" height="auto" src="https://user-images.githubusercontent.com/38981255/201937686-68dd3dca-db89-413e-aeae-a9f2f9bbd018.jpg">
 </p>
 
-5 . Create Repository, Buat Nama dan Deskripsi Bebas
+5. Create Repository, Buat Nama dan Deskripsi Bebas
 
 ## Instal Git Remote
 ```
@@ -39,7 +39,6 @@ cd nama-repositori
 <p align="center">
   <img height="auto" height="auto" src="https://user-images.githubusercontent.com/38981255/201942175-c6952a60-9f01-4319-8908-253d2e355fe4.jpg">
 </p>
-![5]()
 
 ```
 echo "# hello-world" >> README.md
