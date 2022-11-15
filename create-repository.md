@@ -35,6 +35,12 @@ cd nama-repositori
 `repository` ganti dengan nama folder kalian bebas
 
 ## Lalu Next Step Paste Paste Saja
+
+<p align="center">
+  <img height="auto" height="auto" src="https://user-images.githubusercontent.com/38981255/201942175-c6952a60-9f01-4319-8908-253d2e355fe4.jpg">
+</p>
+![5]()
+
 ```
 echo "# hello-world" >> README.md
 git init
